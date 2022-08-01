@@ -23,5 +23,11 @@ public class ByteIntShortLong {
 
         System.out.println("Short Minimum Value = " + myMinShortValue);
         System.out.println("Short Maximum Value = " + myMaxShortValue);
+
+        long myMinLongValue = Long.MIN_VALUE;
+        long myMaxLongValue = Long.MAX_VALUE;
+
+        System.out.println("Long Minimum Value = " + myMinLongValue);
+        System.out.println("Long Maximum Value = " + myMaxLongValue);
     }
 }
